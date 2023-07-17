@@ -52,3 +52,157 @@ header p {
 header img {
     width: 100%;
 }
+
+/*esto es de contacto.html*/
+
+.containerForm {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+#inputMedidas {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15pt;
+    color: #04146c;
+    width: 700px;
+    height: 50px;
+}
+
+#textarea {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15pt;
+    color: #04146c;
+    min-width: 700px;
+    max-width: 700px;
+    min-height: 100px;
+    max-height: 100px;
+}
+
+.p1contacto {
+    font-family: 'Roboto Slab', serif;
+    font-size: 34pt;
+    font-weight: 700;
+    color: #2c00cc;
+    margin-bottom: 30px;
+}
+
+.h3contacto {
+    font-family: 'Roboto', sans-serif;
+    font-size: 23pt;
+    color: #04146c;
+    margin-bottom: 15px;
+}
+
+.pInput {
+    font-family: 'Roboto', sans-serif;
+    font-size: 23pt;
+    color: #04146c;
+    font-weight: 700;
+    margin-top: 40px;
+    margin-bottom: 15px;
+}
+
+.pInput span {
+    color: red;
+}
+
+#botones {
+    display: flex;
+    flex-direction: row;
+
+}
+
+#botones button {
+    font-family: 'Roboto Slab', serif;
+    font-size: 24pt;
+    font-weight: 700;
+    width: 200px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    margin-top: 20px;
+    margin-right: 30px;
+}
+
+.reset {
+    background-color: #f98500;
+}
+
+
+.button {
+    background-color: #2c00cc;
+}
+
+#inputMedidas::placeholder {
+    font-size: 18px;
+    padding-left: 20px;
+}
+
+/*tercer ejercicio*/
+
+.container {
+    position: relative;
+    margin-top: 100px;
+}
+
+.footerContainer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    width: 48%;
+}
+
+.footerContainer2 {
+    z-index: 1;
+}
+
+.colFooter {
+    display: flex;
+    flex-direction: column;
+    padding-left: 56px;
+}
+
+.colFooter h2 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 34pt;
+    font-weight: 700;
+    color: #0a2ff1;
+    padding-bottom: 10px;
+}
+
+.colFooter p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18pt;
+    color: #04146c;
+    padding-bottom: 10px;
+}
+
+.colFooter p span {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18pt;
+    font-weight: 700;
+    color: #04146c;
+}
+
+.footer1 {
+    text-align: end;
+    margin-bottom: -51px;
+}
+
+.footer1 img {
+    width: 50%;
+}
+
+.footer2 {
+    justify-content: start;
+    background-color: #3957f1;
+}
+
+.footer2 img {
+    width: 20%;
+    padding: 25px 70px;
+}
